@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ტოკენის გადამოწმება</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ტესტის ტოკენის გადამოწმება</h1>
+    </header>
+
+    <main>
+      <form id="verify-form">
+        <label for="token">ტოკენი:</label>
+        <input
+          type="text"
+          id="token"
+          placeholder="შეიყვანეთ ტესტის ტოკენი"
+          required
+        />
+        <button type="submit">შემოწმება</button>
+      </form>
+
+      <section id="result-container">
+        <!-- შედეგი გამოჩნდება აქ -->
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; 2025 ტესტირების სისტემა</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script>
+    <script src="scripts/verify.js"></script>
+  </body>
+</html>

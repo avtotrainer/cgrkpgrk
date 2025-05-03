@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ტესტის არჩევა</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ტესტირების სისტემა</h1>
+      <p>შეიყვანეთ ექვსნიშნა ტესტის კოდი და თქვენი პირადი ნომერი</p>
+    </header>
+
+    <main>
+      <form id="code-form">
+        <label for="test-code">ტესტის კოდი</label>
+        <input
+          type="text"
+          id="test-code"
+          maxlength="6"
+          pattern="\d{6}"
+          placeholder="მაგ: 123456"
+          required
+        />
+
+        <label for="student-id">პირადი ნომერი</label>
+        <input
+          type="text"
+          id="student-id"
+          maxlength="11"
+          pattern="\d{11}"
+          placeholder="მაგ: 01001001010"
+          required
+        />
+
+        <button type="submit">დაწყება</button>
+      </form>
+    </main>
+
+    <footer>
+      <small>&copy; 2025 ტესტირების სისტემა</small>
+    </footer>
+
+    <script>
+      document
+        .getElementById("code-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const code = document.getElementById("test-code").value;
+          const studentId = document.getElementById("student-id").value;
+
+          if (/^\d{6}$/.test(code) && /^\d{11}$/.test(studentId)) {
+            const url = new URL("test.html", window.location.href);
+            url.searchParams.set("code", code);
+            url.searchParams.set("id", studentId);
+            window.location.href = url.toString();
+          } else {
+            alert(
+              "გთხოვთ, შეიყვანოთ სწორი მონაცემები: 6-ნიშნა ტესტის კოდი და 11-ნიშნა პირადი ნომერი.",
+            );
+          }
+        });
+    </script>
+  </body>
+</html>

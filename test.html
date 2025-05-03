@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ტესტი</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="student-name">მოსწავლის სახელი</h1>
+      <p id="test-info">
+        ტესტის ნომერი: <span id="test-id"></span> | კითხვების რაოდენობა:
+        <span id="total-questions"></span>
+      </p>
+    </header>
+
+    <section id="progress-section">
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+    </section>
+
+    <main id="question-container">
+      <p class="question-text">იტვირთება...</p>
+    </main>
+
+    <nav id="navigation-buttons">
+      <button id="prev-question">უკან</button>
+      <button id="next-question">შემდეგი</button>
+      <button id="finish-test">დასრულება</button>
+    </nav>
+
+    <footer>
+      <small>&copy; 2025 ტესტირების სისტემა</small>
+    </footer>
+
+    <!-- საჭიროა md5 ჰეშის ფუნქციისთვის -->
+    <script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script>
+    <!-- ტესტის ლოგიკა -->
+    <script src="scripts/test.js"></script>
+  </body>
+</html>
