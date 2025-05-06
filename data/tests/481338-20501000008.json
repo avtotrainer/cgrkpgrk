@@ -1,0 +1,120 @@
+{
+  "student": "ეკა ბუაძე",
+  "personal_id": "20501000008",
+  "test_id": "481338",
+  "start_time": "2025-05-06T05:33:43.878345",
+  "end_time": "2025-06-05T05:33:43.878345",
+  "questions": [
+    {
+      "question": "რამდენია 30 - 4?",
+      "options": [
+        "22",
+        "26",
+        "30",
+        "28"
+      ],
+      "answer_hash": "33e75ff09dd601bbe69f351039152189",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 8 * 38?",
+      "options": [
+        "303",
+        "302",
+        "309",
+        "304"
+      ],
+      "answer_hash": "37bc2f75bf1bcfe8450a1a41c200364c",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 37 + 43?",
+      "options": [
+        "80",
+        "76",
+        "81",
+        "75"
+      ],
+      "answer_hash": "f033ab37c30201f73f142449d037028d",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 234 / 6?",
+      "options": [
+        "40",
+        "34",
+        "39",
+        "42"
+      ],
+      "answer_hash": "d67d8ab4f4c10bf22aa353e27879133c",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 42 - 34?",
+      "options": [
+        "7",
+        "3",
+        "13",
+        "8"
+      ],
+      "answer_hash": "c51ce410c124a10e0db5e4b97fc2af39",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 40 / 5?",
+      "options": [
+        "8",
+        "12",
+        "9",
+        "11"
+      ],
+      "answer_hash": "c9f0f895fb98ab9159f51fd0297e236d",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 84 / 4?",
+      "options": [
+        "21",
+        "19",
+        "16",
+        "20"
+      ],
+      "answer_hash": "1f0e3dad99908345f7439f8ffabdffc4",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 34 * 21?",
+      "options": [
+        "717",
+        "715",
+        "714",
+        "716"
+      ],
+      "answer_hash": "788d986905533aba051261497ecffcbb",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 35 + 6?",
+      "options": [
+        "40",
+        "41",
+        "39",
+        "42"
+      ],
+      "answer_hash": "a1d0c6e83f027327d8461063f4ac58a6",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 28 - 25?",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "6"
+      ],
+      "answer_hash": "1679091c5a880faf6fb5e6087eb1b2dc",
+      "points": 1
+    }
+  ],
+  "answers": []
+}
