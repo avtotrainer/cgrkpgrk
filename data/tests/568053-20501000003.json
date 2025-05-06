@@ -1,0 +1,120 @@
+{
+  "student": "ლუკა ლორთქიფანიძე",
+  "personal_id": "20501000003",
+  "test_id": "568053",
+  "start_time": "2025-05-06T05:33:33.740868",
+  "end_time": "2025-06-05T05:33:33.740868",
+  "questions": [
+    {
+      "question": "რამდენია 15 + 26?",
+      "options": [
+        "42",
+        "36",
+        "41",
+        "46"
+      ],
+      "answer_hash": "19ca14e7ea6328a42e0eb13d585e4c22",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 140 / 10?",
+      "options": [
+        "18",
+        "16",
+        "14",
+        "19"
+      ],
+      "answer_hash": "6f4922f45568161a8cdf4ad2299f6d23",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 64 / 2?",
+      "options": [
+        "32",
+        "34",
+        "27",
+        "36"
+      ],
+      "answer_hash": "6364d3f0f495b6ab9dcf8d3b5c6e0b01",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 23 * 7?",
+      "options": [
+        "161",
+        "164",
+        "163",
+        "159"
+      ],
+      "answer_hash": "0777d5c17d4066b82ab86dff8a46af6f",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 15 - 7?",
+      "options": [
+        "11",
+        "8",
+        "4",
+        "10"
+      ],
+      "answer_hash": "6512bd43d9caa6e02c990b0a82652dca",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 2 + 25?",
+      "options": [
+        "29",
+        "31",
+        "27",
+        "24"
+      ],
+      "answer_hash": "c16a5320fa475530d9583c34fd356ef5",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 18 + 20?",
+      "options": [
+        "40",
+        "38",
+        "33",
+        "42"
+      ],
+      "answer_hash": "a5771bce93e200c36f7cd9dfd0e5deaa",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 37 + 15?",
+      "options": [
+        "55",
+        "57",
+        "52",
+        "53"
+      ],
+      "answer_hash": "72b32a1f754ba1c09b3695e0cb6cde7f",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 2 + 37?",
+      "options": [
+        "43",
+        "37",
+        "39",
+        "38"
+      ],
+      "answer_hash": "17e62166fc8586dfa4d1bc0e1742c08b",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 14 * 44?",
+      "options": [
+        "613",
+        "616",
+        "611",
+        "621"
+      ],
+      "answer_hash": "85fc37b18c57097425b52fc7afbb6969",
+      "points": 1
+    }
+  ],
+  "answers": []
+}
