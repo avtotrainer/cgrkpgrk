@@ -1,0 +1,120 @@
+{
+  "student": "ბექა ლორთქიფანიძე",
+  "personal_id": "20501000007",
+  "test_id": "190641",
+  "start_time": "2025-05-06T05:33:41.935690",
+  "end_time": "2025-06-05T05:33:41.935690",
+  "questions": [
+    {
+      "question": "რამდენია 64 / 2?",
+      "options": [
+        "36",
+        "32",
+        "27",
+        "34"
+      ],
+      "answer_hash": "6364d3f0f495b6ab9dcf8d3b5c6e0b01",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 40 / 2?",
+      "options": [
+        "20",
+        "24",
+        "17",
+        "19"
+      ],
+      "answer_hash": "70efdf2ec9b086079795c442636b55fb",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 32 * 21?",
+      "options": [
+        "670",
+        "667",
+        "674",
+        "672"
+      ],
+      "answer_hash": "b5dc4e5d9b495d0196f61d45b26ef33e",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 1 + 48?",
+      "options": [
+        "46",
+        "48",
+        "45",
+        "49"
+      ],
+      "answer_hash": "f457c545a9ded88f18ecee47145a72c0",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 54 / 3?",
+      "options": [
+        "22",
+        "19",
+        "23",
+        "18"
+      ],
+      "answer_hash": "b6d767d2f8ed5d21a44b0e5886680cb9",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 28 * 50?",
+      "options": [
+        "1396",
+        "1400",
+        "1397",
+        "1405"
+      ],
+      "answer_hash": "215a71a12769b056c3c32e7299f1c5ed",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 22 + 22?",
+      "options": [
+        "46",
+        "43",
+        "40",
+        "44"
+      ],
+      "answer_hash": "d9d4f495e875a2e075a1a4a6e1b9770f",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 190 / 5?",
+      "options": [
+        "39",
+        "38",
+        "35",
+        "33"
+      ],
+      "answer_hash": "d67d8ab4f4c10bf22aa353e27879133c",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 48 + 45?",
+      "options": [
+        "95",
+        "88",
+        "98",
+        "93"
+      ],
+      "answer_hash": "ed3d2c21991e3bef5e069713af9fa6ca",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 42 - 24?",
+      "options": [
+        "13",
+        "18",
+        "20",
+        "23"
+      ],
+      "answer_hash": "98f13708210194c475687be6106a3b84",
+      "points": 1
+    }
+  ],
+  "answers": []
+}
