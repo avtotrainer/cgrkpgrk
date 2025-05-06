@@ -1,0 +1,120 @@
+{
+  "student": "თორნიკე მელიქიძე",
+  "personal_id": "20501000006",
+  "test_id": "097237",
+  "start_time": "2025-05-06T05:33:39.991044",
+  "end_time": "2025-06-05T05:33:39.991044",
+  "questions": [
+    {
+      "question": "რამდენია 23 * 7?",
+      "options": [
+        "164",
+        "161",
+        "159",
+        "163"
+      ],
+      "answer_hash": "0777d5c17d4066b82ab86dff8a46af6f",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 37 + 43?",
+      "options": [
+        "80",
+        "75",
+        "81",
+        "76"
+      ],
+      "answer_hash": "f033ab37c30201f73f142449d037028d",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 54 / 3?",
+      "options": [
+        "19",
+        "21",
+        "18",
+        "20"
+      ],
+      "answer_hash": "3c59dc048e8850243be8079a5c74d079",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 18 - 2?",
+      "options": [
+        "20",
+        "21",
+        "17",
+        "16"
+      ],
+      "answer_hash": "98f13708210194c475687be6106a3b84",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 48 - 8?",
+      "options": [
+        "40",
+        "38",
+        "37",
+        "42"
+      ],
+      "answer_hash": "a5771bce93e200c36f7cd9dfd0e5deaa",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 18 + 20?",
+      "options": [
+        "33",
+        "38",
+        "42",
+        "40"
+      ],
+      "answer_hash": "a5771bce93e200c36f7cd9dfd0e5deaa",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 90 / 10?",
+      "options": [
+        "12",
+        "10",
+        "9",
+        "11"
+      ],
+      "answer_hash": "6512bd43d9caa6e02c990b0a82652dca",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 37 / 1?",
+      "options": [
+        "40",
+        "39",
+        "37",
+        "35"
+      ],
+      "answer_hash": "d645920e395fedad7bbbed0eca3fe2e0",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 1 + 48?",
+      "options": [
+        "46",
+        "48",
+        "45",
+        "49"
+      ],
+      "answer_hash": "f457c545a9ded88f18ecee47145a72c0",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 40 / 2?",
+      "options": [
+        "17",
+        "19",
+        "20",
+        "24"
+      ],
+      "answer_hash": "70efdf2ec9b086079795c442636b55fb",
+      "points": 1
+    }
+  ],
+  "answers": []
+}
