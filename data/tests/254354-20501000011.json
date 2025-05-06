@@ -1,0 +1,120 @@
+{
+  "student": "ლუკა მელიქიძე",
+  "personal_id": "20501000011",
+  "test_id": "254354",
+  "start_time": "2025-05-06T05:33:49.821508",
+  "end_time": "2025-06-05T05:33:49.821508",
+  "questions": [
+    {
+      "question": "რამდენია 7 + 23?",
+      "options": [
+        "26",
+        "25",
+        "31",
+        "30"
+      ],
+      "answer_hash": "4e732ced3463d06de0ca9a15b6153677",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 37 / 1?",
+      "options": [
+        "40",
+        "35",
+        "37",
+        "39"
+      ],
+      "answer_hash": "d645920e395fedad7bbbed0eca3fe2e0",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 8 + 23?",
+      "options": [
+        "26",
+        "29",
+        "31",
+        "32"
+      ],
+      "answer_hash": "6364d3f0f495b6ab9dcf8d3b5c6e0b01",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 50 - 22?",
+      "options": [
+        "33",
+        "28",
+        "26",
+        "29"
+      ],
+      "answer_hash": "6ea9ab1baa0efb9e19094440c317e21b",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 3 + 13?",
+      "options": [
+        "16",
+        "14",
+        "21",
+        "15"
+      ],
+      "answer_hash": "3c59dc048e8850243be8079a5c74d079",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 42 * 24?",
+      "options": [
+        "1010",
+        "1003",
+        "1008",
+        "1011"
+      ],
+      "answer_hash": "7f975a56c761db6506eca0b37ce6ec87",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 20 - 7?",
+      "options": [
+        "15",
+        "11",
+        "8",
+        "13"
+      ],
+      "answer_hash": "9bf31c7ff062936a96d3c8bd1f8f2ff3",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 25 + 9?",
+      "options": [
+        "34",
+        "33",
+        "30",
+        "36"
+      ],
+      "answer_hash": "e369853df766fa44e1ed0ff613f563bd",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 18 - 2?",
+      "options": [
+        "21",
+        "17",
+        "16",
+        "20"
+      ],
+      "answer_hash": "98f13708210194c475687be6106a3b84",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 15 * 15?",
+      "options": [
+        "226",
+        "223",
+        "225",
+        "220"
+      ],
+      "answer_hash": "9cfdf10e8fc047a44b08ed031e1f0ed1",
+      "points": 1
+    }
+  ],
+  "answers": []
+}
