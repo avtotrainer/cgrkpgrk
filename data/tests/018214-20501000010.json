@@ -1,0 +1,120 @@
+{
+  "student": "ანა სუმბაძე",
+  "personal_id": "20501000010",
+  "test_id": "018214",
+  "start_time": "2025-05-06T05:33:47.769252",
+  "end_time": "2025-06-05T05:33:47.769252",
+  "questions": [
+    {
+      "question": "რამდენია 12 * 10?",
+      "options": [
+        "117",
+        "124",
+        "120",
+        "121"
+      ],
+      "answer_hash": "4c56ff4ce4aaf9573aa5dff913df997a",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 7 * 35?",
+      "options": [
+        "241",
+        "245",
+        "249",
+        "244"
+      ],
+      "answer_hash": "f340f1b1f65b6df5b5e3f94d95b11daf",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 344 / 8?",
+      "options": [
+        "41",
+        "43",
+        "47",
+        "38"
+      ],
+      "answer_hash": "3416a75f4cea9109507cacd8e2f2aefc",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 37 * 8?",
+      "options": [
+        "300",
+        "298",
+        "296",
+        "299"
+      ],
+      "answer_hash": "94f6d7e04a4d452035300f18b984988c",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 48 - 4?",
+      "options": [
+        "49",
+        "44",
+        "48",
+        "47"
+      ],
+      "answer_hash": "f7177163c833dff4b38fc8d2872f1ec6",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 8 - 2?",
+      "options": [
+        "2",
+        "6",
+        "11",
+        "1"
+      ],
+      "answer_hash": "1679091c5a880faf6fb5e6087eb1b2dc",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 8 + 47?",
+      "options": [
+        "50",
+        "55",
+        "54",
+        "60"
+      ],
+      "answer_hash": "072b030ba126b2f4b2374f342be9ed44",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 10 - 8?",
+      "options": [
+        "7",
+        "2",
+        "-1",
+        "0"
+      ],
+      "answer_hash": "cfcd208495d565ef66e7dff9f98764da",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 15 + 26?",
+      "options": [
+        "42",
+        "36",
+        "46",
+        "41"
+      ],
+      "answer_hash": "19ca14e7ea6328a42e0eb13d585e4c22",
+      "points": 1
+    },
+    {
+      "question": "რამდენია 18 + 20?",
+      "options": [
+        "40",
+        "33",
+        "38",
+        "42"
+      ],
+      "answer_hash": "a5771bce93e200c36f7cd9dfd0e5deaa",
+      "points": 1
+    }
+  ],
+  "answers": []
+}
