@@ -12,13 +12,14 @@ function renderQuestion() {
   const q = testData.questions[currentQuestion];
   const container = document.getElementById("question-container");
   container.innerHTML = `
+    <p class="question-number">ᲙᲘᲗᲮᲕᲐ № ${currentQuestion + 1} / ${testData.questions.length}</p>    
     <p class="question-text">${q.question}</p>
     <div class="options">
       ${q.options
         .map(
           (opt, index) => `
         <div class="option-with-label">
-          <div class="option-label">${index + 1}</div>
+          <div class="option-label">${index + 1}.</div>
           <button class="option-button ${answers[currentQuestion] === opt ? "selected" : ""}">${opt}</button>
         </div>`,
         )
@@ -33,10 +34,8 @@ function renderQuestion() {
 
       if (currentQuestion < testData.questions.length - 1) {
         currentQuestion++;
-        renderQuestion();
-      } else {
-        alert("ეს იყო ბოლო კითხვა. გთხოვ დაასრულე ტესტი ღილაკით.");
       }
+      renderQuestion();
     });
   });
 }
@@ -45,11 +44,18 @@ function updateProgress() {
   const progressBar = document.getElementById("progress-bar");
   const filled = answers.filter((a) => a !== undefined).length;
   const percent = Math.floor((filled / testData.questions.length) * 100);
-  progressBar.style.width = `${percent}%`;
+
+  if (window.innerWidth <= 600) {
+    progressBar.style.height = `${percent}%`;
+    progressBar.style.width = `100%`;
+  } else {
+    progressBar.style.width = `${percent}%`;
+    progressBar.style.height = `100%`;
+  }
+
   progressBar.style.backgroundColor =
     filled === testData.questions.length ? "green" : "#e74c3c";
 }
-
 function showTestData(data) {
   testData = data;
   document.getElementById("student-name").textContent = data.student;

@@ -76,11 +76,19 @@ button:hover {
   max-width: 800px;
   margin: auto;
 }
-
+.question-number {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--accent);
+}
 .question-text {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .options {
@@ -125,12 +133,21 @@ button:hover {
 }
 
 #navigation-buttons {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto 1fr; /* პირველი ორი ღილაკი ცენტრში, მესამე მარჯვნივ */
   gap: 1rem;
-  flex-wrap: wrap;
   max-width: 600px;
   margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#navigation-buttons button {
+  width: 100%;
+}
+
+#finish-test {
+  justify-self: end; /* ღილაკი "დასრულება" მარჯვენა მხარეს */
 }
 
 #progress-section {
@@ -155,21 +172,63 @@ button:hover {
 }
 
 @media (max-width: 600px) {
+  #progress-section {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    height: 60vh;
+    margin: 0;
+    z-index: 10;
+  }
+
+  #progress-bar-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  #progress-bar {
+    width: 100%;
+    height: 0%; /* საწყისი მდგომარეობა ვერტიკალურისთვის */
+  }
   .question-text {
     font-size: 1.25rem;
   }
 
-  .option-button {
-    font-size: 1rem;
-    padding: 0.75rem 1.5rem;
-  }
-
   #navigation-buttons {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
+    align-items: stretch;
   }
 
   form {
     width: 90%;
+  }
+  .options {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .option-with-label {
+    display: flex;
+    flex-direction: row; /* აუცილებელია, რომ ღილაკი და ნომერი იყოს გვერდიგვერდ */
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .option-label {
+    font-weight: bold;
+    font-size: 1rem;
+    min-width: 1.5rem;
+    text-align: right;
+    color: var(--primary);
+  }
+
+  .option-button {
+    flex: 1;
+    text-align: left;
+    padding: 0.75rem 1rem;
   }
 }
