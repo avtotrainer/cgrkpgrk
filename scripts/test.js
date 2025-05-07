@@ -13,7 +13,7 @@ function renderQuestion() {
   const container = document.getElementById("question-container");
   container.innerHTML = `
     <p class="question-number">ᲙᲘᲗᲮᲕᲐ № ${currentQuestion + 1} / ${testData.questions.length}</p>    
-    <p class="question-text">${q.question}</p>
+    <p class="question-text animate">${q.question}</p>
     <div class="options">
       ${q.options
         .map(
@@ -27,17 +27,42 @@ function renderQuestion() {
     </div>
   `;
 
+  const optionElements = document.querySelectorAll(".option-with-label");
+  optionElements.forEach((el) => {
+    el.classList.remove("show");
+    el.style.display = "none";
+  });
+
+  setTimeout(() => {
+    optionElements.forEach((el, index) => {
+      el.style.display = "flex";
+      setTimeout(() => {
+        el.classList.add("show");
+      }, index * 100);
+    });
+  }, 50);
+
   document.querySelectorAll(".option-button").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       answers[currentQuestion] = e.target.textContent;
       updateProgress();
+      e.target.blur();
 
       if (currentQuestion < testData.questions.length - 1) {
         currentQuestion++;
+        renderQuestion();
       }
-      renderQuestion();
     });
   });
+
+  document.querySelectorAll(".option-button").forEach((btn) => btn.blur());
+
+  const questionEl = document.querySelector(".question-text");
+  if (questionEl) {
+    questionEl.classList.remove("animate");
+    void questionEl.offsetWidth;
+    questionEl.classList.add("animate");
+  }
 }
 
 function updateProgress() {
@@ -56,6 +81,7 @@ function updateProgress() {
   progressBar.style.backgroundColor =
     filled === testData.questions.length ? "green" : "#e74c3c";
 }
+
 function showTestData(data) {
   testData = data;
   document.getElementById("student-name").textContent = data.student;
@@ -102,7 +128,14 @@ function finishTest() {
 
   testData.answers = answers;
 
-  alert(`ტესტი დასრულებულია!\nქულა: ${score}/${total}\nტოკენი: ${token}`);
+  const container = document.getElementById("question-container");
+  container.innerHTML = `
+    <div id="completion-message" class="show">
+      ტესტი დასრულებულია!<br />ქულა: ${score}/${total}<br />ტოკენი: ${token}
+    </div>
+  `;
+
+  updateProgress();
 }
 
 fetch(testFile)
